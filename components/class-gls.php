@@ -40,7 +40,7 @@ class WC_Shipping_doprava_GLS extends WC_Shipping_Method {
     $this->form_fields = array (
       'op1' => array(
         'title'       => 'GLS Slovensko',
-        'label'       => 'Zobrazení se ve widgetu pouze výdejní místa GLS na Slovensku.',
+        'label'       => 'Zobrazí se ve widgetu pouze výdejní místa GLS na Slovensku.',
         'type'        => 'checkbox',
         'default'     => 'no',
       ),
