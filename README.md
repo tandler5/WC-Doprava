@@ -1,6 +1,9 @@
 # WC-Doprava
 Implementace českých kurýrních služeb (DPD Pickup, Česká pošta, WE|DO, GLS) do Woocommerce
 
+1.2 - + PPL - Plánuje se
+1.1 - DPD Pickup, Česká pošta, WE|DO, GLS
+
 Webová stránka pro ukázku funkčnosti pluginu:
 http://doprava.8u.cz/
 
