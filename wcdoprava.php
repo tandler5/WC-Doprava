@@ -5,7 +5,7 @@
  * Version: 1.1
  * Author: Tandler
  * Author URI: https://github.com/tandler5
- * Plugin URI:
+ * Plugin URI:https://github.com/tandler5/WC-Doprava
  */
 add_action( 'woocommerce_shipping_init', 'doprava_doprava_zasilkovna_init' );
 add_filter( 'woocommerce_shipping_methods', 'doprava_doprava_zasilkovna' );
