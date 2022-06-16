@@ -106,7 +106,7 @@ function doprava_zasilkovna_zobrazit_pobocky() {
     if ( strpos( $chosen_shipping_method[0], "doprava_zasilkovna" ) !== false ) { ?>
       <tr class="zasilkovna">
         <th>
-          <img src="/wp-content/plugins/wcdoprava/loga/DPD_logo_redgrad_rgb-300x133.png" width="200" border="0">
+          <img src="/wp-content/plugins/WC-Doprava-main/loga/DPD_logo_redgrad_rgb-300x133.png" width="200" border="0">
         </th>
         <td>
             <input type="hidden" id="packeta-point-id" name="packeta-point-id" value="<?php echo $zasilkovna_branches; ?>">
@@ -161,7 +161,7 @@ function doprava_zasilkovna_scripts_checkout() {
   if ( is_checkout() ) {
     $zasilkovna_settings = get_option( 'woocommerce_doprava_zasilkovna_settings' ); 
      $api_klic = $zasilkovna_settings['op1']; ?>
-      <script src="/wp-content/plugins/wcdoprava/js/dpd.js"></script>
+      <script src="/wp-content/plugins/WC-Doprava-main/js/dpd.js"></script>
       <script type="text/javascript">
         var packetaApiKey = '<?php echo $api_klic; ?>';
         var $storage_support = true;
@@ -231,7 +231,7 @@ function doprava_posta_zobrazit_pobocky() {
     if ( strpos( $chosen_shipping_method[0], "doprava_posta" ) !== false ) { ?>
       <tr class="posta">
         <th>
-          <img src="/wp-content/plugins/wcdoprava/loga/cp.svg" width="200" border="0">
+          <img src="/wp-content/plugins/WC-Doprava-main/loga/cp.svg" width="200" border="0">
         </th>
         <td>
         <input type="hidden" id="packeta-point-id" name="packeta-point-id" value="<?php echo $zasilkovna_branches; ?>">
@@ -285,7 +285,7 @@ function doprava_posta_scripts_checkout() {
     $posta_settings = get_option( 'woocommerce_doprava_posta_settings' ); 
      $api_klic = $posta_settings['op1'];
      $api_klic2 = $posta_settings['op2']; ?>
-      <script src="/wp-content/plugins/wcdoprava/js/cp.js"></script>
+      <script src="/wp-content/plugins/WC-Doprava-main/js/cp.js"></script>
       <script type="text/javascript">
         var packetaApiKey = '<?php echo $api_klic; ?>';
         var packetaApiKey2= '<?php echo $api_klic2; ?>';
@@ -356,7 +356,7 @@ function doprava_wedo_zobrazit_pobocky() {
     if ( strpos( $chosen_shipping_method[0], "doprava_wedo" ) !== false ) { ?>
       <tr class="wedo">
         <th>
-          <img src="/wp-content/plugins/wcdoprava/loga/WE_DO_na_bile_RGB.png" width="200" border="0">
+          <img src="/wp-content/plugins/WC-Doprava-main/loga/WE_DO_na_bile_RGB.png" width="200" border="0">
         </th>
         <td>
             <input type="hidden" id="packeta-point-id" name="packeta-point-id" value="<?php echo $zasilkovna_branches; ?>">
@@ -412,7 +412,7 @@ function doprava_wedo_scripts_checkout() {
     $wedo_settings = get_option( 'woocommerce_doprava_wedo_settings' ); 
      $api_klic = $wedo_settings['op1'];
      $api_klic2 = $wedo_settings['op2']; ?>
-      <script src="/wp-content/plugins/wcdoprava/js/wedo.js"></script>
+      <script src="/wp-content/plugins/WC-Doprava-main/js/wedo.js"></script>
       <script type="text/javascript">
         var packetaApiKey = '<?php echo $api_klic; ?>';
         var packetaApiKey2= '<?php echo $api_klic2; ?>';
@@ -483,7 +483,7 @@ function doprava_gls_zobrazit_pobocky() {
     if ( strpos( $chosen_shipping_method[0], "doprava_gls" ) !== false ) { ?>
       <tr class="gls">
         <th>
-          <img src="/wp-content/plugins/wcdoprava/loga/GLS_Logo_2021_RGB_GLSBlue.png" width="200" border="0">
+          <img src="/wp-content/plugins/WC-Doprava-main/loga/GLS_Logo_2021_RGB_GLSBlue.png" width="200" border="0">
         </th>
         <td>
          <input type="hidden" id="packeta-point-id" name="packeta-point-id" value="<?php echo $zasilkovna_branches; ?>">
@@ -633,7 +633,7 @@ function doprava_gls_scripts_checkout() {
     $gls_settings = get_option( 'woocommerce_doprava_gls_settings' ); 
      $api_klic = $gls_settings['op1'];
      $api_klic2 = $gls_settings['op2']; ?>
-      <script src="/wp-content/plugins/wcdoprava/js/gls.js"></script>
+      <script src="/wp-content/plugins/WC-Doprava-main/js/gls.js"></script>
       <script type="text/javascript">
         var packetaApiKey = '<?php echo $api_klic; ?>';
         var packetaApiKey2= '<?php echo $api_klic2; ?>';
