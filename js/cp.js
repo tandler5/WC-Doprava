@@ -113,7 +113,6 @@ Packetaa.Widget = {
         if(wrapper.getAttribute("tabindex") === null) {
             wrapper.setAttribute("tabindex", "-1"); // make it focusable
         }
-        wrapper.style.display = 'none';
     function iframeListener(event) {
      if (event.data.message === "pickerResult") {
          document.getElementById("ship-to-different-address-checkbox").checked = true;
