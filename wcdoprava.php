@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: WooCommerce doprava
- * Description: Implementace českých kurýrních služeb (DPD Pickup, Česká pošta, WE|DO, GLS)
+ * Description: Implementace českých kurýrních služeb (DPD Pickup, Česká pošta, WE|DO, GLS) do Woocomerce
  * Version: 1.1
  * Author: Tandler
  * Author URI: https://github.com/tandler5
