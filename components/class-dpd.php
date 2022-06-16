@@ -40,7 +40,7 @@ class WC_Shipping_doprava_Zasilkovna extends WC_Shipping_Method {
     $this->form_fields = array (
       'op1' => array(
         'title'       => 'DPD Boxy',
-        'label'       => 'Zobrazení se ve widgetu i výdejní místa s DPD boxy',
+        'label'       => 'Zobrazí se ve widgetu i výdejní místa s DPD boxy',
         'type'        => 'checkbox',
         'default'     => 'yes',
       )
